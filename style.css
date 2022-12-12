@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Urbanist', sans-serif;
+}
+
+:root {
+  /* Normal colors */
+  --gray-color: #14121e;
+  --orange-color: #ffefe2;
+  --pink-color: #fcf3fd;
+  --green-color: #f7fae9;
+  --blue-color: #F2F2FC;
+  --red-color: #FCEDED;
+  --white-color: #fafafa;
+
+  /* Darker */
+  --dark-orange-color: #eedaca;
+  --dark-pink-color: #efdfef;
+  --dark-green-color: #e8ecd3;
+  --dark-blue-color: #DFDFF0;
+  --dark-red-color: #F0D8D8;
+
+  /* Icon colors */
+  --icon-orange-color: #573e2a;
+  --icon-pink-color: #5a435d;
+  --icon-green-color: #939970;
+  --icon-blue-color: #42425C;
+  --icon-red-color: #664747;
+}
+
+nav {
+  height: 100vh;
+  width: 200px;
+  background-color: var(--gray-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+a {
+  color: var(--white-color);
+  text-decoration: none;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.extraLinks {
+  margin-top: 50vh;
+}
+
+.navIcon {
+  padding-right: 10px;
+}
+
+#navLogo {
+  width: 90px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.navIcon {
+  margin-right: 10px;
+  width: 30px;
+}
+
+section.landing {
+  position: absolute;
+  top: 50px;
+  margin-left: 250px;
+  display: flex;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+
+.lessonsTitle {
+  font-weight: 700;
+}
+
+.lesson {
+  width: 40vw;
+  height: 60px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.lesson1 {
+  background: var(--orange-color);
+  margin-top: 10px;
+}
+
+.lesson2 {
+  background: var(--pink-color);
+}
+
+.lesson3 {
+  background: var(--green-color);
+}
+
+.lesson4 {
+  background: var(--blue-color);
+}
+
+.lesson5 {
+  background: var(--red-color);
+}
+
+.lessonTitle {
+  font-weight: 600;
+}
+
+.lessonTime {
+  font-size: 12px;
+}
+
+.leftLessonGroup {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.rightLessonGroup {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  left: 36vw;
+}
+
+.lesson1Background {
+  background-color: var(--dark-orange-color);
+}
+
+.lesson2Background {
+  background-color: var(--dark-pink-color);
+}
+
+.lesson3Background {
+  background-color: var(--dark-green-color);
+}
+
+.lesson4Background {
+  background-color: var(--dark-blue-color);
+}
+
+.lesson5Background {
+  background-color: var(--dark-red-color);
+}
+
+.lessonLogo {
+  font-size: 20px;
+}
+
+.lesson1Logo {
+  color: var(--icon-orange-color);
+}
+
+.lesson2Logo {
+  color: var(--icon-pink-color);
+}
+
+.lesson3Logo {
+  color: var(--icon-green-color);
+}
+
+.lesson4Logo {
+  color: var(--icon-blue-color);
+}
+
+.lesson5Logo {
+  color: var(--icon-red-color);
+}
+
+section.todaysFood {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  background-color: var(--gray-color);
+  margin-top: 100px;
+  padding: 0 50px 50px 50px;
+  color: var(--white-color);
+  border-radius: 5%;
+}
+
+#todaysFood {
+  width: 300px;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.todaysFoodTitle {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.todaysFoodNameAndTime {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#viewMeals {
+  width: 250px;
+  height: 50px;
+  background: var(--dark-orange-color);
+  padding: 0;
+  display: grid;
+  place-self: center;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  color: var(--gray-color);
+}
+
+#viewMealsbtn {
+}

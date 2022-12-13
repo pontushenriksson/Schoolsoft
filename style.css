@@ -13,22 +13,22 @@
   --orange-color: #ffefe2;
   --pink-color: #fcf3fd;
   --green-color: #f7fae9;
-  --blue-color: #F2F2FC;
-  --red-color: #FCEDED;
+  --blue-color: #f2f2fc;
+  --red-color: #fceded;
   --white-color: #fafafa;
 
   /* Darker */
   --dark-orange-color: #eedaca;
   --dark-pink-color: #efdfef;
   --dark-green-color: #e8ecd3;
-  --dark-blue-color: #DFDFF0;
-  --dark-red-color: #F0D8D8;
+  --dark-blue-color: #dfdff0;
+  --dark-red-color: #f0d8d8;
 
   /* Icon colors */
   --icon-orange-color: #573e2a;
   --icon-pink-color: #5a435d;
   --icon-green-color: #939970;
-  --icon-blue-color: #42425C;
+  --icon-blue-color: #42425c;
   --icon-red-color: #664747;
 }
 
@@ -56,7 +56,7 @@ a {
 }
 
 .extraLinks {
-  margin-top: 50vh;
+  margin-top: 10vh;
 }
 
 .navIcon {
@@ -65,8 +65,8 @@ a {
 
 #navLogo {
   width: 90px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 00px;
 }
 
 .navIcon {
@@ -231,4 +231,32 @@ section.todaysFood {
 }
 
 #viewMealsbtn {
+}
+
+.fa-bell {
+  position: absolute;
+  right: 60px;
+  top: 0px;
+  font-size: 24px;
+  background-color: var(--dark-blue-color);
+  padding: 20px;
+  border-radius: 5px;
+  color: var(--gray-color);
+  z-index: 1;
+}
+
+.notficationNumber {
+  position: absolute;
+  z-index: 2;
+  right: 75px;
+  top: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: var(--icon-green-color);
+  color: var(--gray-color);
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 14px;
 }
